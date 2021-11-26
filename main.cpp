@@ -12,25 +12,19 @@ int main(void){
         cout << "Invalid operation." << endl;
         return 0;
     }
-    
-    int result = calculator(num1, num2, op);
-    cout << "The result is " << result << "." << endl;
 
-    return 0;
-}
-
-int calculator(double num1,double num2, string op){
+    cout << "The operation and operands inputted are: " << endl;
     if(op == "+" || op == "plus"){
-        return num1+num2;
+        cout << "+ " << num1 << " " << num2;
     }
     else if(op == "-" || op == "minus"){
-        return num1-num2;
+        cout << "- " << num1 << " " << num2;
     }
     else if(op == "*" || op == "mul"){
-        return num1*num2;
+        cout << "* " << num1 << " " << num2;
     }
     else if(op == "/" || op == "div"){
-        return num1/num2;
+        cout << "/ " << num1 << " " << num2;
     }
     return 0;
 }
