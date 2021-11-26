@@ -5,7 +5,7 @@
 
 #include <iostream>
 #include <string>
-int calculator(int num1, int num2, std::string op);
+int calculator(double num1, double num2, std::string op);
 
 
 
