@@ -12,10 +12,10 @@ int main(void){
         cout << "Invalid operation." << endl;
         return 0;
     }
-    
+
     int result = calculator(num1, num2, op);
     cout << "The result is " << result << "." << endl;
-
+    
     return 0;
 }
 
